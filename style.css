@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.first {
+  width: 1109px;
+  height: 88.91px;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+}
+.right {
+  width: 261.36px;
+  height: 50px;
+  /* border-style: solid;
+    border-color: black; */
+  display: flex;
+  justify-content: flex-end;
+}
+.left {
+  width: 742.59px;
+  height: 38.91;
+  /* border-style: solid; */
+
+  display: flex;
+  justify-content: space-between;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news {
+  height: 50px;
+  font-size: 12px;
+  width: 87.12px;
+}
+.main {
+  display: flex;
+}
+
+.main {
+  height: 35px;
+  width: 83px;
+  /* border-style: solid; */
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.english {
+  font-weight: bold;
+}
+.second {
+  height: 385px;
+  width: 1109px;
+  border-style: solid;
+}
+.law {
+  width: 532px;
+  height: 385px;
+  border-style: solid;
+}
