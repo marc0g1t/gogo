@@ -475,7 +475,7 @@
 .golomt {
   width: 290px;
   height: 1210px;
-  border-style: solid;
+  /* border-style: solid; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -491,8 +491,12 @@
 }
 .gal {
   width: 340px;
-  height: 1440px;
-  border-style: solid;
+  height: 1400px;
+  /* border-style: solid; */
+  background-color: #fefaf6;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .many {
   width: 210px;
@@ -564,19 +568,99 @@
   width: 100%;
   border-style: solid;
 }
+
+.trader {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
 .buduun {
+  position: relative;
+  border-radius: 5px;
   width: 290px;
   height: 170px;
-  border-style: solid;
-  overflow: hidden;
-  border-radius: 5px;
 }
-.trader {
-  width: 100%;
+.buduun:hover > .def {
+  background-color: rgb(0, 0, 0, 0.4);
+  position: absolute;
   height: 100%;
-  object-fit: cover;
+  width: 100%;
+  z-index: 1;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .temtseen {
   font-weight: 500;
   font-size: 15px;
+}
+
+.fire {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  gap: 7px;
+  padding: 30px 50px;
+}
+.one {
+  width: 270px;
+  /* border-style: solid; */
+  padding-bottom: 20px;
+  border-bottom-style: dashed;
+  border-bottom-color: #c8c6c3;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+}
+.onee {
+  width: 270px;
+  /* border-style: solid; */
+  padding-bottom: 20px;
+  border-bottom-style: dashed;
+
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+}
+.red {
+  font-weight: 700;
+  color: #e00034;
+  font-size: 46px;
+}
+
+.irgen {
+  width: 229px;
+  height: fit-content;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.irgeni {
+  width: 203px;
+  height: fit-content;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tsag {
+  display: flex;
+  color: #888;
+  gap: 15px;
+  font-size: 12px;
+  align-items: center;
+}
+.harrier {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fire {
+  margin-right: 100px;
 }
