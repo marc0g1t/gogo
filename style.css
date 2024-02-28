@@ -1,21 +1,54 @@
 .real-container {
-  background-color: rgba(251, 251, 251, 255);
   width: 100%;
   height: 100%;
-  gap: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .container-2 {
-  height: 280px;
+  height: 285px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.container-3 {
   width: 1109px;
-  border-style: solid;
+  height: 2950px;
+  /* border-style: solid; */
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-white {
+  height: 285px;
+  width: 1109px;
+  /* border-style: solid; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.container {
+.china {
+  width: 690px;
+  height: 2849px;
+  /* border-style: solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.unuudur {
+  width: 735px;
+  height: 61px;
+  /* border-style: solid; */
+}
+.plan {
+  margin-bottom: 40px;
+}
+.second {
+  margin-bottom: 30px;
+}
+.container-1 {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -215,7 +248,7 @@
 .story {
   width: 170.8px;
   height: 235px;
-  border-style: solid;
+  /* border-style: solid; */
 }
 .story-container {
   display: flex;
@@ -244,12 +277,13 @@
 .story {
   height: 235px;
   width: 170.8px;
-  border-style: solid;
+  /* border-style: solid; */
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
 }
 .img {
   position: absolute;
@@ -259,6 +293,10 @@
   object-fit: cover;
 }
 .container:hover > .img {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.story:hover > .img {
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -282,16 +320,263 @@
   position: relative;
 }
 .hide {
-  border-style: solid;
+  /* border-style: solid; */
   font-size: 13px;
   height: 32px;
   overflow: hidden;
   transition: height 1s;
   margin-top: 30px;
 }
+.biden {
+  font-size: 13px;
+  height: 32px;
+  /* overflow: hidden; */
+  /* transition: height 1s; */
+  /* margin-top: 30px; */
+}
+.biden:hover {
+  cursor: pointer;
+}
+.zud {
+  font-size: 13px;
+  height: 32px;
+}
+.zud:hover {
+  cursor: pointer;
+}
 .text:hover .hide {
   /* height: fit-content; */
   height: 70px;
   /* transition: 1s; */
   cursor: pointer;
+}
+.ontsloh {
+  height: 2716px;
+  width: 340px;
+  border-style: solid;
+  border-left: 1px solid #efefef;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.india {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.date {
+  height: 29px;
+  width: 735px;
+  /* border-style: solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.leaf {
+  font-weight: 700;
+  font-size: 16px;
+  color: #407cf2;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+.unuudur {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.identical {
+  height: 22px;
+  width: 103.8px;
+  /* border-style: solid; */
+}
+.differ {
+  height: 27px;
+  width: 27px;
+  /* border-style: solid; */
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.sky {
+  height: 7px;
+  width: 103.8px;
+  background-color: #407ce8;
+  border-radius: 20px;
+}
+.march {
+  color: #407ce8;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+.identical:hover {
+  cursor: pointer;
+}
+.leaf:hover {
+  cursor: pointer;
+}
+.identicall {
+  height: 22px;
+  width: 103.8px;
+  /* border-style: solid; */
+}
+.smoke {
+  height: 7px;
+  width: 103.8px;
+  background-color: #efefef;
+  border-radius: 20px;
+}
+.feb {
+  color: #b7b6b6;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+.identicall:hover {
+  cursor: pointer;
+}
+.feb:hover {
+  color: #407ce8;
+}
+.smoke:hover {
+  background-color: #407ce8;
+}
+.differ:hover {
+  background-color: #407ce8;
+  color: white;
+  cursor: pointer;
+}
+.tsaash {
+  width: 690px;
+  height: 65.4px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.akin {
+  height: 150px;
+  width: 690px;
+  /* border-style: solid; */
+  display: flex;
+  justify-content: space-between;
+}
+.golomt {
+  width: 290px;
+  height: 1210px;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ih {
+  width: 100%;
+  height: 1130px;
+  /* border-style: solid;
+  border-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gal {
+  width: 340px;
+  height: 1440px;
+  border-style: solid;
+}
+.many {
+  width: 210px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+}
+.many:hover > .major {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.major {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1s;
+}
+.major:hover ~ .unshih {
+  width: 100%;
+  height: 100%;
+  /* border-style: solid;
+  border-color: red; */
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(0, 0, 0, 0.4);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.CS {
+  width: 450px;
+  height: 145px;
+  /* border-style: solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.CS:hover {
+  cursor: pointer;
+}
+.sport {
+  font-weight: 700;
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 19px;
+}
+.yvdal {
+  color: #888;
+  font-size: 14px;
+}
+.gpt {
+  display: flex;
+  gap: 20px;
+}
+.garchig {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.side {
+  height: 253px;
+  width: 100%;
+  border-style: solid;
+}
+.buduun {
+  width: 290px;
+  height: 170px;
+  border-style: solid;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.trader {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.temtseen {
+  font-weight: 500;
+  font-size: 15px;
 }
