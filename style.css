@@ -1,6 +1,6 @@
 .real-container {
   width: 100%;
-  height: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -353,7 +353,7 @@
 .ontsloh {
   height: 2716px;
   width: 340px;
-  border-style: solid;
+  /* border-style: solid; */
   border-left: 1px solid #efefef;
   margin-top: 30px;
   display: flex;
@@ -564,38 +564,38 @@
   align-items: center;
 }
 .side {
-  height: 253px;
+  height: fit-content;
   width: 100%;
-  border-style: solid;
+  /* border-style: solid; */
 }
-
+.buduun {
+  height: 170px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+}
+.buduun:hover {
+  cursor: pointer;
+  transition: 1s;
+}
 .trader {
-  object-fit: cover;
   height: 100%;
   width: 100%;
+  object-fit: cover;
   position: absolute;
   z-index: 0;
 }
-.buduun {
-  position: relative;
-  border-radius: 5px;
-  width: 290px;
-  height: 170px;
-}
 .buduun:hover > .def {
   background-color: rgb(0, 0, 0, 0.4);
-  position: absolute;
   height: 100%;
   width: 100%;
-  z-index: 1;
-  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.temtseen {
-  font-weight: 500;
-  font-size: 15px;
+  color: white;
+  position: absolute;
+  z-index: 1;
 }
 
 .fire {
@@ -663,4 +663,267 @@
 }
 .fire {
   margin-right: 100px;
+}
+.temtseen {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+.budeg {
+  gap: 12px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+.container-4 {
+  height: 548px;
+  width: 1109px;
+  /* border-style: solid; */
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.handsome {
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+  gap: 5px;
+}
+.mic {
+  object-fit: cover;
+}
+.design {
+  height: 500px;
+  width: 100%;
+  /* border-style: solid; */
+  display: flex;
+  justify-content: space-between;
+}
+.smile {
+  width: 542.5px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 6px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.teeth {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  transition: 1s;
+  position: absolute;
+  z-index: 0;
+}
+.success {
+  height: fit-content;
+  width: 482px;
+  /* border-style: solid; */
+  position: absolute;
+  z-index: 1;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.delgerengui {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 15px;
+}
+.smile:hover > .teeth {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.smooth {
+  background-color: #407ce8;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+  padding: 8px 8px;
+  border-radius: 4px;
+  width: fit-content;
+}
+.samdan {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+  font-family: Helvetica Neue, sans-serif;
+  border-bottom-style: solid;
+  border-bottom-color: #c8c6c3;
+  width: fit-content;
+  height: 85px;
+}
+.said {
+  height: 500px;
+  width: 542px;
+  /* border-style: solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.part1 {
+  display: flex;
+  justify-content: space-between;
+}
+.part2 {
+  display: flex;
+  justify-content: space-between;
+}
+.ijil {
+  width: 263px;
+  height: 243px;
+  /* border-style: solid; */
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.random {
+  height: fit-content;
+  width: 223px;
+  /* border-style: solid; */
+  position: absolute;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.ijil:hover > .gutal {
+  transform: scale(1.1);
+}
+.turshilt {
+  font-weight: 700;
+  font-size: 13px;
+  padding: 3px 7px;
+  border-radius: 6px;
+  background-color: #407ce8;
+  color: #fff;
+  width: fit-content;
+}
+.gutal {
+  width: 263px;
+  height: 243px;
+  object-fit: cover;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 0;
+  transition: 1s;
+}
+.tsagaan {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 7px;
+}
+.container-5 {
+  height: 405px;
+  width: 1180px;
+  display: flex;
+  margin-top: 50px;
+  border-style: solid;
+  align-items: flex-end;
+}
+.shuurga {
+  width: 1109px;
+  height: 360px;
+  border-style: solid;
+  display: flex;
+  justify-content: space-between;
+}
+.german {
+  width: 263px;
+  height: 360px;
+  border-style: solid;
+}
+.sum {
+  width: 38px;
+  height: 360px;
+  border-style: solid;
+  border-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 40px;
+
+  color: #b5b4b4;
+}
+.gol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.goo {
+  font-size: 26px;
+  font-weight: 700;
+}
+.your-style {
+  font-size: 18px;
+  color: #fff;
+  padding: 2px 3px;
+  background-color: #00b0f4;
+  border-radius: 3px;
+  width: fit-content;
+  font-weight: 700;
+}
+.hev-mayg {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.land {
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+}
+.land-300 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1s;
+  position: absolute;
+  z-index: 0;
+}
+.land:hover > .land-300 {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.land:hover > .unshih {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.unshih {
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+.search {
+  width: 243px;
+  height: 110px;
+  padding: 10px;
+  border-style: solid;
+  border-color: red;
+}
+.cold {
+  font-size: 20px;
+  font-weight: 500;
+}
+.comment {
+  display: flex;
+  gap: 30px;
+  font-size: 12px;
 }
