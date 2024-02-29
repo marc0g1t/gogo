@@ -984,7 +984,7 @@ height: 130px;
 .pdf {
   height: 717px;
   width: 1109px;
-  border-style: solid;
+  /* border-style: solid; */
   /* border-color: red; */
   display: flex;
   flex-direction: column;
@@ -993,14 +993,25 @@ height: 130px;
 .green {
   height: 374px;
   width: 100%;
-  border-style: solid;
+  /* border-style: solid; */
   border-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mujin {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
 }
 .gold {
   height: 323px;
   width: 100%;
-  border-style: solid;
-  border-color: gold;
+  /* border-style: solid; */
+  /* border-color: gold; */
   display: flex;
   justify-content: space-between;
 }
@@ -1034,4 +1045,72 @@ height: 130px;
   display: flex;
   justify-content: center;
   align-items: center; */ 
+}
+.vinjin {
+  width: 100%;
+  /* border-style: solid; */
+  height: 323px; 
+  display: flex;
+  justify-content: space-between;
+}
+.eye {
+  height: 100%;
+  width: 263px;
+  /* border-style: solid; */
+}
+.two {
+  height: 273px;
+  width: 100%;
+  /* border-style: solid; */
+  display: flex;
+  flex-direction: column;
+  
+}
+.teacher {
+  height: 170px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+}
+.huduu {
+  object-fit: cover;
+  height: 170px;
+  width: 263px;
+  transition: 1s;
+  position: absolute;
+  z-index: 0;
+}
+.teacher:hover > .huduu{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.teacher:hover > .sis {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.fraud {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 5px;
+}
+.mart {
+  margin-top: 10px;
+  color: hsla(0, 0%, 100%, .8);
+}
+.last-container {
+  width: 1109px;
+  height: 147px;
+  border-style: solid;
+  padding-top: 800px;
 }
